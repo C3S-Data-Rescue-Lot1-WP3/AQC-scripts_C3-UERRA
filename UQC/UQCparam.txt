@@ -1,0 +1,78 @@
+Please do change ONLY in the parameter values of this file !
+
+Part I
+
+Please write always from the beginning of the line following the question.
+
+1) Name of the red (5 characters):
+
+
+2) Number of sites (1-100):
+
+
+3) TT is available? (Y/N) 
+
+
+4) RH is available? (Y/N)
+
+
+5) TD is included in RH files? (Y/N)
+
+
+6) VV is available? (Y/N)
+
+
+7) DD is included in VV files? (Y/N)
+
+
+8) Tn&Tx is available? (Y/N)
+
+
+9) First year and last year with data (in the entire dataset) 
+
+
+
+Part II
+
+Only the order of parameters is fixed, the format of numbers and the number of space characters between them are indifferent.
+Exceptions: For question 5) only whole numbers are accepted.
+
+1) Absolute minimums and maximums for TT, RH, VV and DD:
+(°C for TT, % for RH, m/s for VV and ° for DD)
+-92  58  1  100  0  98  0  360
+
+2) Max. extreme anomaly relative to the monthly PDF=0.05 or PDF=0.95,
+for TT, TD (PDF=0.05) and TD (PDF=0.95) (°C)
+8.0  10.0  6.0
+
+3) Max. extreme anomaly relative to the annual PDF=0.05 or PDF=0.95,
+for TT, TD (PDF=0.05), TD (PDF=0.95) (°C) and VV (PDF=0.95, coefficient)
+12.0  14.0  10.0  4.0
+
+4) Threshold anomalies (min. and max.) in the mean changes between
+two adjacent values for TT, RH VV and DD (coefficient)
+0.4  2.5  0.4  2.5  0.4  2.5  0.4  2.5
+
+5) Critical number of repeted values in flat lines (3...100)
+for TT, RH, VV and DD
+10  10  30  30
+
+6) Maximal jump within 12 hours
+for TT (annual and diurnal changes filtered) in °C
+18.0
+
+7) Sharp spikes: max. changes below and after the point, within 16 hours
+for TT (annual and diurnal changes filtered) in °C
+12.0  6.0
+
+8) Joint change in sudden warming
+TT (°C), RH (ratio relative to the initial value)
+10.0  0.92
+
+9) Joint change in sudden cooling
+TT (°C), RH (ratio of the change of (100% - RH) relative to its initial value), VV (m/S)
+-8.0  0.80  3.0
+
+10) Absolute difference of TD in source data and TD calculated by the program
+TD (°C)
+2.0  1.0
